@@ -1,0 +1,53 @@
+work on nav bar first
+1) nav bar
+2)work
+3)client results
+4) current knowledege
+5)bio and linkdin
+
+
+
+<a class="navbar-brand" id="brand" href="#">Sohail Mirza</a>
+
+
+@media (max-width:600px) {
+    .sohailimg {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  margin-right: 100px;
+  float: left;
+}
+  .bio_p {
+text-align: black;
+  font-family: "Montserrat", sans-serif;
+color: white;
+position: absolute;
+font-size: 15px;
+margin-bottom: 150px;
+margin-left: 150px;
+inline-size: 2;
+padding: 2% 15%;
+
+ 
+}  
+.bio_h2 {
+    margin-bottom: 200px;
+    font-family: "Staatliches", cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 950px;
+    margin-left: 70px;
+    margin-top: 200px;
+    
+}
+
+#bio{
+    color: white;
+    text-align: center;
+    padding: 5% 10%;
+    height: 800px;
+    width: auto;
+}
+    
+}

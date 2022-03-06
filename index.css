@@ -1,0 +1,266 @@
+body {
+  text-align: center;
+}
+#top-container {
+  padding: 3% 15%;
+  background-color: #000000;
+  text-align: center;
+  height: 200px;
+}
+
+#brand {
+font-family:monospace;
+  color: white;
+  font-size: 40px;
+
+  
+}
+#brandEm{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+#links {
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+}
+.sohailimg {
+  border-radius: 100px;
+  height: 175px;
+  width: 175px;
+  margin-right: 100px;
+  float: left;
+}
+#mid-container {
+  background-color: white;
+  padding: 3% 10%;
+}
+/* h1 {
+
+} */
+
+.typewriter {
+    color: black;
+  font-family: monospace;
+  font-size: 70px;
+  line-height: 1.5;
+  
+  /* code */
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.0s steps(40, end),
+    blink-caret .55s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+#headerP {
+  color: black;
+  font-family:  monospace;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-top: 50px;
+}
+
+#headerEm {
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 1.5;
+}
+#work {
+  margin-top: 50px;
+  background-color :white;
+
+  font-family: monospace;
+  font-size: 30px;
+  line-height: 1.5;
+  height: 200px;
+  
+}
+#work_h2 {
+  color: black;
+  font-family: monospace;
+  font-size: 50px;
+
+}
+#work_p {
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 50px;
+}
+#skills {
+  color: white;
+  background-color: black;
+  padding: 3% 10%;
+  height: auto;
+  font-size: 100px;
+   
+}
+@media (max-width:800px){
+    #logos {
+        padding: 2% 10px;
+  margin-left: 70px;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+}
+#h2_skills{
+  
+font-family:  monospace;
+  font-size: 60px;
+}
+#logos {
+  margin-left: 70px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#bio {
+  background-color: #150050;
+  
+}
+.bio_h2 {
+    margin-bottom: 200px;
+    font-family: "Staatliches", monospace;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 950px;
+    margin-top: 200px;
+    
+}
+.bio_p {
+text-align: black;
+font-family: "Montserrat", sans-serif;
+color: white;
+position: absolute;
+margin-top: 50px;
+margin-bottom: 100px;
+margin-left: 50px;
+inline-size: .5;
+padding: 2% 15%;
+
+ 
+}
+
+
+/* media end */
+#bio{
+    color: white;
+    text-align: center;
+    padding: 5% 10%;
+    height: 400px;
+    width: auto;
+}
+
+#logos1{
+    margin:30px;
+}
+.contact{
+   font-family: monospace;
+   color: white;
+   font-size: 70px;
+   text-align: center;
+   padding: 3% 10%;
+}
+#contact{
+    background-color: black;
+    margin-bottom: 100px;
+    padding: 3% 3%;
+}
+
+
+/* cardd */
+button:hover, a:hover {
+  opacity: 0.7;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: monospace;
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: auto;
+  margin: 100px 350px 100px 350px;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 50px;
+ 
+}
+
+#sohail{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 220px;
+    border-radius: 50%;
+    padding: 1% 2%;
+
+
+}
+#footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#buttonSubmit{
+  width: 100px;
+}
+#email{
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  box-shadow: #000;
+  margin:20px;
+  background-color: beige;
+  
+}
+#newsletter{
+  font-family: monospace;
+  padding: 2% 10%;
+
+}
+#logo{
+  height: 250px;
+  width: 350px;
+  padding: 3% 5%;
+  margin-right: 200px;
+  border-radius: 10%;
+}
+
+#logos1{
+  color: #000;
+}
+
